@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/hangman.png">
+  <img src="assets/hangman.png" width=400>
 </p>
 
 <p align="center">
@@ -20,20 +20,11 @@ ___
 
 ___
 
-<p align="center">
-  <img src="../images/hangman-play.png" width=300>
-</p>
-
-<br>
-
-
 ## :telescope: Overview
 
 This is version of the classic letter guessing game called Hangman.
 
 You are shown a set of blank letters that match a word or phrase and you have to guess what these letters are to reveal the hidden word.
-
-<br>
 
 ## :computer: Rules
 
@@ -42,9 +33,10 @@ You are shown a set of blank letters that match a word or phrase and you have to
 - When the man is completed, the game is over and you lose.
 - If you can reveal all the letters in the word before the man is hung then you are successful.
 - Good luck!
+- :video_game: [Play](https://wiz-hangman.netlify.app/)
 
-<br>
+## :sparkles: Result
 
-## Licença 
-
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+<p align="center">
+  <img src="./assets/result.gif">
+</p>
