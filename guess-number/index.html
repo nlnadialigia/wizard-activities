@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ptbr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the number</title>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@100;400;600;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="start">
+        <div class="title">
+            <img src="/assets/logo-game.png" alt="Guess the number">
+        </div>
+        
+        <label for="number">Max number</label>
+        <input 
+            type="number" 
+            name="number" 
+            id="number-choice" 
+            min="0"
+            max="100"
+        >
+        <button id="start-button">Start</button>
+        
+        
+        <div class="wizard">
+            <img src="/assets/logo-wizard.png" alt="Wizard">
+            <h5>Wizard Ribeirânia</h5>
+        </div>
+    </div>
+
+    <div id="game">
+        <!-- <h1>Guess the number</h1> -->
+    
+        <p id="message">Hello</p>
+    
+        <input type="text" name="input" id="input">
+        <button id="button">Next</button>
+    
+        <div class="modal">
+            <img src="/assets/fireworks.gif" alt="Fireworks">
+            <button id="reset-button">Reset</button>
+        </div>    
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

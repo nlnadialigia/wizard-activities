@@ -1,0 +1,28 @@
+#house{
+    display: none;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: end;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.room{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.room img{
+    border: 0.2rem solid var(--room-color);
+    box-shadow: 0 0 2rem gold, 0 0 2rem red;
+    width: 25rem;
+    height: 15rem;
+    border-radius: 0.5rem;
+}
+
+.room .image{
+    display: block;
+}
+
+

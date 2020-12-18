@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treasure Hunt</title>
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/index.css">
+    <link rel="stylesheet" href="/styles/stopwatch.css">
+    <link rel="stylesheet" href="/styles/penalty.css">
+    <link rel="stylesheet" href="/styles/house.css">
+    <link rel="stylesheet" href="/styles/clues.css">
+
+</head>
+<body>
+    <div id="start">        
+        <div class="title">
+            <img src="/images/logo.png" alt="Treasure Hunt">
+            <img src="/images/house.jpeg" alt="House">
+        </div>
+        <div class="options">
+            <button class="start-button">Start</button>
+            <button>
+                <a href="../index.html">Rules</a>
+            </button>
+        </div>
+        <div class="wizard">
+            <img src="/images/logo-wizard.png" alt="Wizard">
+            <p>Wizard Ribeirânia</p>
+        </div>
+    </div>
+    
+    <!-- PÁGINA PRINCIPAL -->
+    <div class="stopwatch">
+        <div id="hours">00</div> 
+        <div class="points">:</div>
+        <div id="minutes">00</div>
+        <div class="points">:</div>
+        <div id="seconds">00</div>
+        <div id="tenth" class="none">00</div>
+    </div>
+
+    <div id="first-clue">
+        <div id="question">
+            <!-- A room in a house for general and informal everyday use. -->
+        </div>
+        <div class="answer">
+            <input type="text" name="answer" id="answer">
+        </div>
+        <button id="check">
+            <img src="/images/right.png" alt="Right">
+        </button>
+    </div>
+
+    <div id="house"></div>
+    <div id="clues"></div>
+
+    <div class="penalty">
+        <div id="countdown"></div>
+    </div>
+
+    <div id="gameover">
+        <img src="../images/gameover.png">
+        <button class="reset-button">Reset</button>
+    </div>
+
+    <script src="/scripts/index.js"></script>
+    <script src="../scripts/stopwatch.js"></script>
+    <script src="../scripts/hard.js"></script>
+</body>
+</html>

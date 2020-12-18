@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mixed vocabulary</title>
+    <link rel="stylesheet" href="../styles/hangman.css">
+</head>
+<body>
+    <div class="container">
+        <div class="text-center">
+            <div class="up">
+                <img src="../assets/0.jpg" alt="Imagem inicial da Forca" id="hangmanPic">
+                <div class="float-right">
+                    Wrong Guesses:
+                    <span id="mistakes">0</span>
+                    of
+                    <span id="maxwrong"></span>
+                </div>
+            </div>
+            <p>Guess the word ➪ Mixed Vocabulary</p>
+            <p id="wordSpotlight">The word to be guessed goes here</p>
+            <!-- será colocado alfabeto pelo javascript -->
+            <div id="keyboard"></div> 
+            <button class="btn btn-reset" onclick="reset()">Reset</button>
+            <button class="btn btn-back">
+                <a href="../index.html">Back</a>
+            </button>
+        </div>
+    </div>
+    <script src="../scripts/hangman.js"></script>
+</body>
+</html>
