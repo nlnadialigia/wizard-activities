@@ -15,17 +15,14 @@ ___
 <h3 align="center">
   <a href="#telescope-overview">Overview</a>&nbsp;|&nbsp;
   <a href="#computer-rules">Rules</a>&nbsp;|&nbsp;
-  <a href="#licença">Licença</a>
+  <a href="#sparkles-result">Result</a>&nbsp;|&nbsp;
 </h3>
 
 ___
 
-<br>
-
 ## :telescope: Overview
 
 A treasure hunt is a game where the children have to follow a series of clues to find the correct place.
-<br>
 
 ## :computer: Rules
 
@@ -33,10 +30,10 @@ A treasure hunt is a game where the children have to follow a series of clues to
 - If it is the wrong answer, the game will be stopped for 5 seconds and you can try again
 - If it is the right answer, the place will apppear in the house and you will be directed to the next clue
 - The student who finishes in the shortest time wins!
+- 🎮 [Play](https://wiz-treasure-hunt.netlify.app/)
 
+## :sparkles: Result
 
-<br>
-
-## Licença 
-
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+<p align="center">
+  <img src="./images/result.gif">
+</p>
