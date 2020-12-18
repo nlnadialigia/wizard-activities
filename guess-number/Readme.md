@@ -15,7 +15,6 @@ ___
 <h3 align="center">
   <a href="#information_source-overview">Overview</a>&nbsp;|&nbsp;
   <a href="#interrobang-rules">Rules</a>&nbsp;|&nbsp;
-  <a href="#interrobang-rules">Rules</a>&nbsp;|&nbsp;
   <a href="#sparkles-result">Result</a>&nbsp;|&nbsp;
 </h3>
 

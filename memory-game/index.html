@@ -1,186 +1,186 @@
 <!DOCTYPE html>
 <html lang="ptbr">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Memory Game</title>
 
-    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap" rel="stylesheet">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Memory Game</title>
+  <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/styles.css">
+  <link rel="stylesheet" href="./styles/responsive.css">
+</head>
 
-    <link rel="stylesheet" href="./styles/styles.css">
-    <link rel="stylesheet" href="./styles/responsive.css">
+<body>
 
-  </head>
-  <body>
+  <div id="page">
 
-    <div id="page">
+    <header>
+      <img src="./assets/memory-game.png" alt="Memory Game">
+    </header>
 
-      <header>
-        <img src="img/memory-game.png" alt="Memory Game">
-      </header>
+    <main>
 
-      <main>
+      <div class="aside1">
 
-        <div class="aside1">
+        <div class="hide" id="img03">
+          <img src="./assets/img03.jpg">
 
-          <div class="hide" id="img03">
-            <img src="img/img03.jpg">
+          <h3></h3>
 
-            <h3></h3>
+        </div>
+        <div class="hide" id="img04">
+          <img src="./assets/img04.jpg">
 
-          </div>
-          <div class="hide" id="img04">
-            <img src="img/img04.jpg">
+          <h3></h3>
 
-            <h3></h3>
+        </div>
+        <div class="hide" id="img07">
+          <img src="./assets/img07.jpg">
 
-          </div>
-          <div class="hide" id="img07">
-            <img src="img/img07.jpg">
+          <h3></h3>
 
-            <h3></h3>
+        </div>
+        <div class="hide" id="img10">
+          <img src="./assets/img10.jpg">
 
-          </div>
-          <div class="hide" id="img10">
-            <img src="img/img10.jpg">
+          <h3></h3>
 
-            <h3></h3>
+        </div>
+        <div class="hide" id="img08">
+          <img src="./assets/img08.jpg">
 
-          </div>
-          <div class="hide" id="img08">
-            <img src="img/img08.jpg">
+          <h3></h3>
 
-            <h3></h3>
+        </div>
+        <div class="hide" id="img05">
+          <img src="./assets/img05.jpg">
 
-          </div>
-          <div class="hide" id="img05">
-            <img src="img/img05.jpg">
+          <h3></h3>
 
-            <h3></h3>
+        </div>
+        <div id="jogo">
+          <img src="./assets/memory_game.svg" alt="Jogo da Memória">
 
-          </div>
-          <div id= "jogo">
-            <img src="img/memory_game.svg" alt="Jogo da Memória">
-
-            <h3>Wizkids</h3>
-
-          </div>
+          <h3>Wizkids</h3>
 
         </div>
 
-        <div class="cards">
+      </div>
 
-          <div class="memory-card" data-object="img03">
-            <img class="front-face" src="img/img03.jpg" alt="img03">
-            <div class="back-face" style="background-color: #000000">
-              <img src="img/logo-wizard.png" alt="Logo" >
-              <p style="color: white">Wizard Ribeirânia</p>
-            </div>
-          </div>
+      <div class="cards">
 
-          <div class="memory-card" data-object="img03">
-            <img class="front-face" src="img/img03.jpg" alt="img03">
-            <div class="back-face" style="background-color: #808080">
-              <img src="img/logo-wizard.png" alt="Logo" >
-              <p>Wizard Ribeirânia</p>
-            </div>
-          </div>
-
-          <div class="memory-card" data-object="img04">
-            <img class="front-face" src="img/img04.jpg" alt="img04">
-            <div class="back-face" style="background-color: #87CEFA">
-              <img src="img/logo-wizard.png" alt="Logo" >
-              <p>Wizard Ribeirânia</p>
-            </div>
-          </div>
-
-          <div class="memory-card" data-object="img04">
-            <img class="front-face" src="img/img04.jpg" alt="img04">
-            <div class="back-face" style="background-color: #191970">
-              <img src="img/logo-wizard.png" alt="Logo" >
-              <p style="color: white">Wizard Ribeirânia</p>
-            </div>
-          </div>
-
-          <div class="memory-card" data-object="img05">
-            <img class="front-face" src="img/img05.jpg" alt="img05">
-            <div class="back-face" style="background-color: #008000">
-              <img src="img/logo-wizard.png" alt="Logo" >
-              <p>Wizard Ribeirânia</p>
-            </div>
-          </div>
-
-          <div class="memory-card" data-object="img05">
-            <img class="front-face" src="img/img05.jpg" alt="img05">
-            <div class="back-face" style="background-color: #8B4513">
-              <img src="img/logo-wizard.png" alt="Logo" >
-              <p>Wizard Ribeirânia</p>
-            </div>
-          </div>
-
-          <div class="memory-card" data-object="img07">
-            <img class="front-face" src="img/img07.jpg" alt="img07">
-            <div class="back-face" style="background-color: #A020F0">
-              <img src="img/logo-wizard.png" alt="Logo" >
-              <p>Wizard Ribeirânia</p>
-            </div>
-          </div>
-
-          <div class="memory-card" data-object="img07">
-            <img class="front-face" src="img/img07.jpg" alt="img07">
-            <div class="back-face" style="background-color: #FF1493">
-              <img src="img/logo-wizard.png" alt="Logo" >
-              <p>Wizard Ribeirânia</p>
-            </div>
-          </div>
-
-          <div class="memory-card" data-object="img08">
-            <img class="front-face" src="img/img08.jpg" alt="img08">
-            <div class="back-face" style="background-color: #FF0000">
-              <img src="img/logo-wizard.png" alt="Logo" >
-              <p>Wizard Ribeirânia</p>
-            </div>
-          </div>
-
-          <div class="memory-card" data-object="img08">
-            <img class="front-face" src="img/img08.jpg" alt="img08">
-            <div class="back-face" style="background-color: #FF8C00">
-              <img src="img/logo-wizard.png" alt="Logo" >
-              <p>Wizard Ribeirânia</p>
-            </div>
-          </div>
-
-          <div class="memory-card" data-object="img10">
-            <img class="front-face" src="img/img10.jpg" alt="img10">
-            <div class="back-face" style="background-color: #FFFF00">
-                            <img src="img/logo-wizard.png" alt="Logo" >
-              <p>Wizard Ribeirânia</p>
-            </div>
-          </div>
-
-          <div class="memory-card" data-object="img10">
-            <img class="front-face" src="img/img10.jpg" alt="img10">
-            <div class="back-face" style="background-color: #FFFFFF">
-              <img src="img/logo-wizard.png" alt="Logo" >
-              <p>Wizard Ribeirânia</p>
-            </div>
+        <div class="memory-card" data-object="img03">
+          <img class="front-face" src="./assets/img03.jpg" alt="img03">
+          <div class="back-face" style="background-color: #000000">
+            <img src="./assets/logo-wizard.png" alt="Logo">
+            <p style="color: white">Wizard Ribeirânia</p>
           </div>
         </div>
 
-        <div class="aside2">
-
-          <div id="box1" class="action">
-            <button class="button" disabled>Jogar de novo</button>
-            <h3>Movimentos: <span id="score">0</span></h3>
+        <div class="memory-card" data-object="img03">
+          <img class="front-face" src="./assets/img03.jpg" alt="img03">
+          <div class="back-face" style="background-color: #808080">
+            <img src="./assets/logo-wizard.png" alt="Logo">
+            <p>Wizard Ribeirânia</p>
           </div>
-
         </div>
 
-      </main>
-    </div>
+        <div class="memory-card" data-object="img04">
+          <img class="front-face" src="./assets/img04.jpg" alt="img04">
+          <div class="back-face" style="background-color: #87CEFA">
+            <img src="./assets/logo-wizard.png" alt="Logo">
+            <p>Wizard Ribeirânia</p>
+          </div>
+        </div>
+
+        <div class="memory-card" data-object="img04">
+          <img class="front-face" src="./assets/img04.jpg" alt="img04">
+          <div class="back-face" style="background-color: #191970">
+            <img src="./assets/logo-wizard.png" alt="Logo">
+            <p style="color: white">Wizard Ribeirânia</p>
+          </div>
+        </div>
+
+        <div class="memory-card" data-object="img05">
+          <img class="front-face" src="./assets/img05.jpg" alt="img05">
+          <div class="back-face" style="background-color: #008000">
+            <img src="./assets/logo-wizard.png" alt="Logo">
+            <p>Wizard Ribeirânia</p>
+          </div>
+        </div>
+
+        <div class="memory-card" data-object="img05">
+          <img class="front-face" src="./assets/img05.jpg" alt="img05">
+          <div class="back-face" style="background-color: #8B4513">
+            <img src="./assets/logo-wizard.png" alt="Logo">
+            <p>Wizard Ribeirânia</p>
+          </div>
+        </div>
+
+        <div class="memory-card" data-object="img07">
+          <img class="front-face" src="./assets/img07.jpg" alt="img07">
+          <div class="back-face" style="background-color: #A020F0">
+            <img src="./assets/logo-wizard.png" alt="Logo">
+            <p>Wizard Ribeirânia</p>
+          </div>
+        </div>
+
+        <div class="memory-card" data-object="img07">
+          <img class="front-face" src="./assets/img07.jpg" alt="img07">
+          <div class="back-face" style="background-color: #FF1493">
+            <img src="./assets/logo-wizard.png" alt="Logo">
+            <p>Wizard Ribeirânia</p>
+          </div>
+        </div>
+
+        <div class="memory-card" data-object="img08">
+          <img class="front-face" src="./assets/img08.jpg" alt="img08">
+          <div class="back-face" style="background-color: #FF0000">
+            <img src="./assets/logo-wizard.png" alt="Logo">
+            <p>Wizard Ribeirânia</p>
+          </div>
+        </div>
+
+        <div class="memory-card" data-object="img08">
+          <img class="front-face" src="./assets/img08.jpg" alt="img08">
+          <div class="back-face" style="background-color: #FF8C00">
+            <img src="./assets/logo-wizard.png" alt="Logo">
+            <p>Wizard Ribeirânia</p>
+          </div>
+        </div>
+
+        <div class="memory-card" data-object="img10">
+          <img class="front-face" src="./assets/img10.jpg" alt="img10">
+          <div class="back-face" style="background-color: #FFFF00">
+            <img src="./assets/logo-wizard.png" alt="Logo">
+            <p>Wizard Ribeirânia</p>
+          </div>
+        </div>
+
+        <div class="memory-card" data-object="img10">
+          <img class="front-face" src="./assets/img10.jpg" alt="img10">
+          <div class="back-face" style="background-color: #FFFFFF">
+            <img src="./assets/logo-wizard.png" alt="Logo">
+            <p>Wizard Ribeirânia</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="aside2">
+
+        <div id="box1" class="action">
+          <button class="button" disabled>Jogar de novo</button>
+          <h3>Movimentos: <span id="score">0</span></h3>
+        </div>
+
+      </div>
+
+    </main>
+  </div>
   </div>
 
-  <script src="script.js"></script>
+  <script src="./scripts/script.js"></script>
 
 </body>
+
 </html>

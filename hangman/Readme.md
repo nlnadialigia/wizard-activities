@@ -15,7 +15,7 @@ ___
 <h3 align="center">
   <a href="#telescope-overview">Overview</a>&nbsp;|&nbsp;
   <a href="#computer-rules">Rules</a>&nbsp;|&nbsp;
-  <a href="#licença">Licença</a>
+  <a href="#sparkles-result">Result</a>&nbsp;|&nbsp;
 </h3>
 
 ___
